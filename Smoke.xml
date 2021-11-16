@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite" parallel="none">
+
+    <test preserve-order="true"
+          name="Data Driven Test Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="test.DataDrivenTest">
+            </class>
+        </classes>
+    </test>
+
+    <test preserve-order="true"
+          name="Test Scripts Chrome">
+        <classes>
+            <class name="test.TestScripts">
+            </class>
+        </classes>
+    </test>
+
+</suite>
