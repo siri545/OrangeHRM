@@ -13,11 +13,13 @@
     </test>
 
     <test preserve-order="true"
-          name="Test Scripts Chrome">
+          name="Data Driven Test Chrome">
+        <parameter name="browser" value="chrome"/>
         <classes>
             <class name="test.TestScripts">
             </class>
         </classes>
     </test>
+
 
 </suite>
