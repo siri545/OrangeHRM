@@ -5,7 +5,6 @@
 
     <test preserve-order="true"
           name="Data Driven Test Chrome">
-        <parameter name="browser" value="chrome"/>
         <classes>
             <class name="test.DataDrivenTest">
             </class>

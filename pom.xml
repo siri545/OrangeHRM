@@ -86,8 +86,8 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <file>DataDrivenTest.xml</file>
-                        <file>TestScripts.xml</file>
+                       <suiteXmlFile>Smoke.xml</suiteXmlFile>
+                        <suiteXmlFile>DataDrivenTest.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <parallel>methods</parallel>
                     <useUnlimitedThreads>true</useUnlimitedThreads>
